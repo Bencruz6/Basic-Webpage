@@ -1,0 +1,174 @@
+header {
+    background-color: #1f2937;
+    color: white;
+    padding: 70px;
+    padding-top: 10px;
+    /* padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom:15px; */
+
+
+}
+
+body {
+    margin: 0px;
+    font-family: 'Roboto', Impact;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+
+}
+
+.H1 {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bolder
+}
+
+img {
+    height: 300x;
+    width: 600px;
+    border: solid white 2px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.Mheading {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.Mbutton {
+    width: 95px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: white;
+}
+
+.M1 {
+    display: flex;
+    gap: 20px;
+}
+
+.Rlinks,
+.Mtext {
+    display: flex;
+    gap: 10px;
+    font-size: 18px;
+    color: #D5E7EB;
+}
+
+a {
+
+    text-decoration: none;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom:0px ;
+}
+
+.images {
+    /* display: flex; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    /* width: 100%; */
+    justify-content: center;
+    /* margin-bottom: 20px; */
+
+}
+
+.image_content img {
+    height: 170px;
+    width: 170px;
+    border: 5px solid rgb(159, 159, 221);
+}
+
+.image_content {
+    max-width: 170px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    text-align: center;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 20px; */
+}
+
+text {
+    max-width: 300px;
+}
+
+.Call_action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call_but {
+    box-sizing: border-box;
+    background-color: #3882f3;
+    height: 70px;
+    width: 750px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    color: white;
+    padding: 30px;
+    height: auto;
+
+    border-radius: 5px;
+    /* margin-bottom: 25px; */
+}
+
+button {
+    width: 70px;
+    height: 25px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+
+
+}
+
+footer {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    height: 40px;
+}
+
+
+
+/* .Itext{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+} */
